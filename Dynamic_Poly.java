@@ -11,7 +11,7 @@ public class Harnivorous {
 				// object of type C
 				Cat c = new Cat();
     
-        Elephant e=new Elephant();
+                                Elephant e=new Elephant();
 				// obtain a reference of type A
 				Animal ref;
 				
