@@ -32,6 +32,10 @@ public class Harnivorous {
 
 				// calling C's version of m1()
 				ref.animalEat();
+		                
+		                ref = e;
+		               
+		                ref.animalEat();
 	}
 
 }class Animal
@@ -52,7 +56,7 @@ class Dog extends Animal
 	@Override
 	public void animalEat()
 	{
-		System.out.println("Inside A's m1 method");
+		System.out.println("eating...");
 	}
 	
 }
